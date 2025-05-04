@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Menu, X, Instagram, Facebook } from 'lucide-react';
 import logo from '/GalerieMNC_logo.png';
-import { Link } from 'react-router-dom';
 
 const Header: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
